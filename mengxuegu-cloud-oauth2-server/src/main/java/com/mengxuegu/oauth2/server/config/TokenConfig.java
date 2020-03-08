@@ -28,7 +28,7 @@ public class TokenConfig {
         return new DruidDataSource();
     }
 
-    public static final String SIGNING_KEY = "mengxeugu-key";
+    //public static final String SIGNING_KEY = "mengxeugu-key";
 
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter() {
